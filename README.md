@@ -3,7 +3,7 @@
 Lookups match by **embedding similarity**, not string equality — so *"Cancel an order I placed"* can be served by the answer already generated for *"How do I cancel my order?"*, in milliseconds, for zero tokens.
 
 This repo is the runnable companion to the article
-**Article: [Your Next iOS System Design Interview Won't Ask About Image Caches. It'll Ask About Semantic Ones.](https://medium.com/@er.rajatlakhina)** *(exact link added after publish)*
+**Article: [Your Next iOS System Design Interview Won't Ask About Image Caches. It'll Ask About Semantic Ones.](https://medium.com/p/cc477c3fdfc5)**
 
 ![Demo app running on the iOS Simulator: metrics header shows 1 hit, 1 miss, 50% hit rate, 27 tokens saved. "How do I cancel my order?" was a MISS that took 945 ms; the reworded "Cancel an order I placed" came back as a HIT at similarity 0.55 in 8 ms.](Demo/Screenshots/simulator-semantic-hit-8ms-vs-945ms-miss.png)
 
